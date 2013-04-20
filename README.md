@@ -39,19 +39,32 @@ Test Cases that I would create basically is
 1 ) Make sure the webservices displays the items when you enter intto browser with  URL, Poster in firefox can be used to view the contents.
 
 The URLs would be the below for restDemo. [Different data to be sent and to see if the data returned are as it should be.]
+
 1 )http://67.170.253.251:8080/restdemo/services/items                GET     (WebService)
+
 2 )http://67.170.253.251:8080/restdemo/services/items/0              GET     (WebService)
+
 3 )http://67.170.253.251:8080/restdemo/services/items/create         POST    (requires the xml object to be passed to create the object)  
+
 4 )http://67.170.253.251:8080/restdemo/services/items/update         PUT
 
+
 5 )Create Webservice Client and test the WS as well.
+
 6 )Make sure that objects are persisted into the database and data is as it should be 
+
 7 )Performance testing
+
 8 )System Testing.
+
 9 I)ntegration testing with the hibernate code.
+
 10 )Test to make sure the data defined in database and class correspond correctly.
+
 11 )Data driven testing would performed to test the limits and boundaries with different values. Also called data scenario testing
+
 12 )Error Testing is when you know that a specific event should trigger a response that is handled by application.
+
 13 )Negative Testing
 Elaborate -: Negative testing is that testing which attempts to show that the module does not
 do anything that it is not supposed to do. Testing the boundary, you expect the boundaries to return the right
@@ -60,6 +73,7 @@ Negative Testing = (Showing error when not supposed to) + (Not showing error whe
 (Usually these situations crop up during boundary testing or cause-effect testing.) 
 Here if either of the situations in parentheses happens you have a negative test in terms of its result - 
 again, not what the test was hoping to find. The application did what it was not supposed to do.
+
 14 )Load Testing.
 
 
