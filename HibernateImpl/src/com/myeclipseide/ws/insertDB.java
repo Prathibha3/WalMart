@@ -24,7 +24,7 @@ public class insertDB {
 				item.getCurrency();
 		        s.save(item);
 		        s.flush();
-		        s.commit();
+		        tx.commit();
 		        s.close();
 			}
     
